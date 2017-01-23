@@ -17,7 +17,7 @@
 	<body>
 		<header id="dev-profile">
 			<div class="container-fluid">
-				<div class="navbar-header">
+				<div class="dashboard-header navbar-header">
 			      	<a class="navbar-brand" href="#">
 			      		<figure id="logo">
 			      			<img src="images/logo/logo-newt.png" alt="getDev.io" height="40px" width="120px"/>

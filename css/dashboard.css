@@ -1,9 +1,12 @@
+/*=================================================================
+	Dashboard Styling start
+==================================================================*/
 #dev-profile{
 	position:relative;
 	height:auto;
 }
 
-.navbar-header{
+.dashboard-header.navbar-header{
 	width:100%;
 }
 
@@ -52,7 +55,7 @@
 }
 
 @media screen and (max-width:767px){
-	.navbar-header{
+	.dashboard-header.navbar-header{
 		margin:auto;
 	}
 	
@@ -273,6 +276,10 @@ li.user img,
 .navbar-nav li.footer a{
 	margin:0;
 }
+
+/*=================================================================
+	Sidebar styling start
+==================================================================*/
 
 #main-section-menu{
   	position:relative;

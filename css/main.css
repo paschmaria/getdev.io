@@ -369,15 +369,9 @@ input[type="checkbox"]{
 	justify-content:center;
 }
 
-/*svg{
-	position:absolute;
-	top:30%;
-	left:43%;
-}*/
-
 svg .vapour{
 	fill:#000F08;
-	transition: all linear 2s;
+	transition:all linear 2s;
 	animation:steam 4s ease-in infinite;
 }
 
@@ -501,9 +495,31 @@ svg .vapour{
 .navbar-nav li a:focus,
 .navbar-nav li a:visited{
 	background:transparent;
-	border-bottom:2px solid #29BF12;
 	padding-bottom:2px;
 	margin-bottom:6px;
+	border-bottom:2px solid #29BF12;
+	transition:border 0.5s ease;
+	animation:underline 0.5s ease-in 1;
+   	-webkit-animation:underline 0.5s ease-in 1;
+   	-moz-animation:underline 0.5s ease-in 1;
+}
+
+@keyframes underline{
+	0% {
+		width:0%;
+	}
+	25% {
+		width:25%;
+	}
+	50% {
+		width:50%;
+	}
+	75% {
+		width:75%;
+	}
+	100% {
+		width:100%;
+	}
 }
 
 .form-control::-moz-placeholder{
@@ -879,16 +895,22 @@ div#hide ul li.thirdanimation{
 	border-bottom:1px solid #000F08;
 }
 
+select[name="cod-dur"],
 select[name="skill-level"]{
 	width:-moz-available;
 	width:-webkit-fill-available;
 	height:34px;
+	border:1px solid #29BF12;
 }
 
-select[name="cod-dur"]{
-	width:-moz-available;
-	width:-webkit-fill-available;
-	height:34px;
+textarea[name="lang"],
+textarea[name="career"],
+textarea[name="app"]{
+	border:1px solid #29BF12;
+}
+select > option{
+	border:1px solid #29BF12;
+	border-top:none;
 }
 
 #footer-content ul li.date{
