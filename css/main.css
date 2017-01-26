@@ -336,7 +336,7 @@ input[type="checkbox"]{
 /*=================================================================
 	Main Content Styling
 ==================================================================*/
-
+/*
 ::-webkit-scrollbar{
     width:16px;
 }
@@ -351,7 +351,7 @@ input[type="checkbox"]{
 }
 ::-webkit-scrollbar-thumb:window-inactive{
 	background:rgba(0,255,0,0.4); 
-}
+}*/
 
 #loading-mask {
     background:#FFF;
@@ -498,11 +498,11 @@ svg .vapour{
 	padding-bottom:2px;
 	margin-bottom:6px;
 	border-bottom:2px solid #29BF12;
-	transition:border 0.5s ease;
-	animation:underline 0.5s ease-in 1;
+	/*transition:border-bottom 0.5s ease;*/
+	/*animation:underline 0.5s ease-in 1;
    	-webkit-animation:underline 0.5s ease-in 1;
-   	-moz-animation:underline 0.5s ease-in 1;
-}
+   	-moz-animation:underline 0.5s ease-in 1;*/
+}/*
 
 @keyframes underline{
 	0% {
@@ -520,7 +520,7 @@ svg .vapour{
 	100% {
 		width:100%;
 	}
-}
+}*/
 
 .form-control::-moz-placeholder{
 	color:#000F08;
